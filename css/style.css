@@ -1,0 +1,52 @@
+body {
+  font-size: 5rem;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.timeContainer {
+  width: 60%;
+  margin: 0 auto;
+  float: left;
+  text-align: center;
+}
+.timerBox {
+  display: inline-block;
+  float: left;
+  
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+
+  border: 0px solid #ddd;
+  border-radius: 50%;
+
+  color: #ddd;
+
+  text-align: center;
+  background-color: darkgoldenrod;
+  text-shadow: 1px 1px 1px #FF0000;
+}
+.timerButton {
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  
+  border-radius: 20px;
+
+  color: #ffffff;
+
+  font-weight: bold;
+  font-variant: small-caps; 
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 1px #ff0000;
+
+  text-align: center;
+  font-style: italic;
+  background-color: coral;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px cornflowerblue;
+  outline: none;
+}
